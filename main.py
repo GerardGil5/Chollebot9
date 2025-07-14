@@ -19,3 +19,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+from config import BOT_TOKEN, CHANNEL_ID
+print(f"🔐 BOT_TOKEN: {BOT_TOKEN}")
+print(f"📣 CHANNEL_ID: {CHANNEL_ID}")
